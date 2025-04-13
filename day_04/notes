@@ -1,0 +1,16 @@
+In Python, modules are files containing Python definitions and statements.
+
+Imports allow code in one module to be reused in another.
+
+The if __name__ == '__main__': construct is a conditional statement that determines whether
+a Python script is being run as the main program or imported as a module.
+
+When a Python file is executed directly,
+the special variable __name__ is set to "__main__".
+
+If the file is imported as a module into another script,
+__name__ is set to the module's name.
+
+The if __name__ == '__main__': block allows specific code to run only when the script is executed directly,
+not when imported.
+
